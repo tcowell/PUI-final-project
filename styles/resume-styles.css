@@ -1,0 +1,11 @@
+.resume-section {
+    background: white;
+    margin: 50px;
+    padding: 10px;
+}
+
+.resume-section-header {
+    font-size: 36px;
+    text-align: center;
+    margin: 10px;
+}

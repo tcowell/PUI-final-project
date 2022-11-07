@@ -1,0 +1,25 @@
+#contact-block {
+    display: flex;
+    background: white;
+    margin: 100px;
+    align-items: center;
+}
+
+#about-me-headshot {
+    width: 400px;
+    display: flex;
+    margin: 20px;
+}
+
+#contact-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact-content {
+    font-size: 24px;
+}
+
+.contact-item {
+    margin-bottom: 5px;
+}
