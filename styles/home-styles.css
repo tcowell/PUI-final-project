@@ -1,0 +1,30 @@
+#homepage-banner {
+    width: 100%;
+}
+
+#content-header {
+    font-size: 36px;
+}
+
+#about-me {
+    display: flex;
+    margin: 50px;
+}
+
+#about-me-headshot {
+    width: 400px; 
+}
+
+#about-me-content {
+    padding: 50px;
+    font-size: 24px;
+}
+
+#bottom-banner {
+    background-image: url("../assets/leaf-background.webp");
+    height: 100px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+}

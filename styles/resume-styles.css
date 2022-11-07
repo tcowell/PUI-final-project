@@ -1,3 +1,7 @@
+body {
+    background-image: url("../assets/leaf-background.webp");
+}
+
 .resume-section {
     background: white;
     margin: 50px;

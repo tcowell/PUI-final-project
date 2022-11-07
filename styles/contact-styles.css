@@ -1,3 +1,7 @@
+body {
+    background-image: url("../assets/leaf-background.webp");
+}
+
 #contact-block {
     display: flex;
     background: white;
