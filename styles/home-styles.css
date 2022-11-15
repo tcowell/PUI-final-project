@@ -4,6 +4,7 @@
 
 #content-header {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 
 #about-me {
@@ -12,11 +13,18 @@
 }
 
 #about-me-headshot {
-    width: 400px; 
+    width: 400px;
+    height: 400px;
+}
+
+#about-me-right {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
 #about-me-content {
-    padding: 50px;
+    padding: 0px 10px 10px 10px;
     font-size: 24px;
 }
 

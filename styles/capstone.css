@@ -1,0 +1,74 @@
+body {
+    background-image: url("../assets/leaf-background.webp");
+}
+
+.main-content {
+    background: white;
+    margin: 50px;
+}
+
+.project-header {
+    display: flex;
+}
+
+.header-icon {
+    width: 300px;
+    margin: 20px;
+}
+
+.project-header-right {
+    font-size: 50px;
+    padding: 40px 20px 20px 20px;
+}
+
+.project-sub-header {
+    font-size: 36px;
+}
+
+.project-overview {
+    text-align: center;
+    padding: 30px;
+}
+
+.overview-header {
+    font-size: 36px;
+    padding: 0px 0px 20px 0px;
+}
+
+.details-header {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.details-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.details-section-left {
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 0px 20px 20px 20px;
+    background: #6AAA78;
+    color: white;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.details-section-right {
+    margin: 0px 20px 20px 0px;
+    font-size: 18px;
+    width: 2000px;
+}
+
+.project-link {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
