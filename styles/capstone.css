@@ -72,3 +72,29 @@ body {
     margin: 20px;
     padding: 20px;
 }
+
+.image-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.screenshot {
+    width: 300px;
+    margin: 30px;
+}
+
+.chiplay-banner {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.chiplay-right {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.chiplay {
+    height: 100px;
+}
+

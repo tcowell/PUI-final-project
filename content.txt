@@ -17,3 +17,10 @@ To meet the needs of our stakeholders (doctors, medical students, patients, and 
 LEARNING DASHBOARDS
 
 Student learning insights and stigma change data are automatically piped into visualizations embedded in NNCI’s website.  This way, instructors can assess the effectiveness of each component of the course and make informed iteration decisions.  Each student can see their scores and feedback from instructors to keep up-to-date on their performance.
+
+COURSE DESIGN OVERVIEW
+
+As part of a course in the METALS program, each student is required to create a fully developed course design for 10 hours of instruction.
+For my project, I developed a course focused on helping Chinese international students prepare for the kinds of reading tasks they will need to complete as part of college-level courses at American institutions.
+As an optional summer preparation course, the instruction uses a blended learning appraoch to familiarize students with reading comprehension in English and the culture of reading at American universities.
+This project follows the pattern of backwards design by first specifying who the learners are, followed by the goals of the course, then the assessment and instructional design of the course, and finally, evaluation research design.
