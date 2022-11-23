@@ -114,3 +114,24 @@ a {
     height: 100px;
 }
 
+.course-project-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course-details-header {
+    text-align: center;
+    padding: 50px 10px 0px 10px;
+    font-size: 24px;
+    background-color: #6AAA78;
+    height: 90px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+}
+
+.course-details {
+    height: auto;
+    width: 200px;
+}
+
