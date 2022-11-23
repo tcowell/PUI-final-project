@@ -1,14 +1,9 @@
-body {
-    background-image: url("../assets/leaf-background.webp");
-}
-
-.main-content {
-    background: white;
-    margin: 50px;
-}
-
 .project-header {
     display: flex;
+    background-image: url("../assets/leaf-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .header-icon {
@@ -37,8 +32,13 @@ body {
 
 .details-header {
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     padding: 20px;
+    background-image: url("../assets/leaf-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .details-section {
@@ -47,23 +47,30 @@ body {
 }
 
 .details-section-left {
-    display: flex;
-    width: 500px;
     height: auto;
     margin: 0px 20px 20px 20px;
-    background: #6AAA78;
-    color: white;
     justify-content: center;
-    font-size: 24px;
+    font-size: 36px;
     align-items: center;
     padding: 5px;
     text-align: center;
+}
+
+.image-container {
+    display: flex;
+}
+
+.capstone-image {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10%;
 }
 
 .details-section-right {
     margin: 0px 20px 20px 0px;
     font-size: 18px;
     width: 2000px;
+    align-self: center;
 }
 
 .project-link {
@@ -71,6 +78,14 @@ body {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    color: white;
+    background-image: url("../assets/leaf-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: white;
 }
 
 .image-row {
@@ -81,6 +96,7 @@ body {
 .screenshot {
     width: 300px;
     margin: 30px;
+    border-radius: 10%;
 }
 
 .chiplay-banner {

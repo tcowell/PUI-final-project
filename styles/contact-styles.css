@@ -27,3 +27,7 @@ body {
 .contact-item {
     margin-bottom: 5px;
 }
+
+a {
+    color: black;
+}
