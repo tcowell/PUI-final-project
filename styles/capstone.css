@@ -128,6 +128,7 @@ a {
     width: 200px;
     color: white;
     margin: 10px;
+    border-radius: 10%;
 }
 
 .course-details {
