@@ -36,10 +36,10 @@
     <!--START EDUCATION-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Education
+            EDUCATION
         </div>
         <div class="education-content">
-            Masters of Educational Technology and Applied Learning Sciences
+            <strong>Masters of Educational Technology and Applied Learning Sciences</strong>
             </br>
             Carnegie Mellon University, Pittsburgh, Pennsylvania
             </br>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="education-content">
-            Bachelor of Science
+            <strong>Bachelor of Science</strong>
             </br>
             University of Michigan, Ann Arbor, Michigan
             </br>
@@ -63,22 +63,24 @@
     <!--START SKILLS-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Skills
+            SKILLS
         </div>
 
-        <!--TODO: GRAPHIC??-->
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
     </div>
     <!--END SKILLS-->
 
     <!--START WORK EXPERIENCE-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Work Experience
+            WORK EXPERIENCE
         </div>
 
         <div class="work-experience-content">
             <div class="work-experience-title">
-                Graduate Research Assistant
+                <strong>Graduate Research Assistant</strong>
             </div>
             <div class="work-location">
                 Carnegie Mellon University
@@ -96,7 +98,7 @@
 
         <div class="work-experience-content">
             <div class="work-experience-title">
-                Research Consultant
+                <strong>Research Consultant</strong>
             </div>
             <div class="work-location">
                 Soar Technology, Inc.
@@ -112,7 +114,7 @@
 
         <div class="work-experience-content">
             <div class="work-experience-title">
-                Research Assistant
+                <strong>Research Assistant</strong>
             </div>
             <div class="work-location">
                 La Laboratoire de la Psychologie du Developpement
@@ -132,12 +134,12 @@
     <!--START PUBLICATIONS-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Publications
+            PUBLICATIONS
         </div>
 
         <div class="publication-content">
             <div class="publication">
-                <strong>Cowell, T.</strong>, Yang, X., Song, J., Pehrsson, R. (2022). “Survive the Party”: An Educational Game about Relationships and Consent. (Accepted to the 2022 ACM ChiPlay Conference, New York).
+                <strong>Cowell, T. S.</strong>, Yang, X., Song, J., & Pehrsson, R. (2022, November). “Survive the Party”: An Educational Game about Relationships and Consent. In Extended Abstracts of the 2022 Annual Symposium on Computer-Human Interaction in Play (pp. 297-302).
             </div>
 
             <div class="publication">
@@ -174,16 +176,25 @@
     <!--START HONORS & AWARDS-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Honors & Awards
+            HONORS & AWARDS
         </div>
 
         <div class="honors-content">
-            <ul>
-                <li>METALS Merit Scholarship</li>
-                <li>RADM / Fred Lewis I/ITSEC Scholarship</li>
-                <li>University of Michigan Honors</li>
-                <li>Honorarium, Cognitive Science Colloquium</li>
-            </ul>
+            <div class="honors-content-left">
+                METALS Merit Scholarship
+            </div>
+            <div class="honors-content-right">
+                RADM / Fred Lewis I/ITSEC Scholarship
+            </div>
+        </div>
+        
+        <div class="honors-content">
+            <div class="honors-content-left">
+                University of Michigan Honors
+            </div>
+            <div class="honors-content-right">
+                Honorarium, Cognitive Science Colloquium
+            </div>
         </div>
     </div>
     <!--END HONORS & AWARDS-->
@@ -191,7 +202,7 @@
     <!--START SELECTED COURSES-->
     <div class="resume-section">
         <div class="resume-section-header">
-            Selected Courses
+            SELECTED COURSES
         </div>
 
         <div class="courses-content">
@@ -216,3 +227,40 @@
 
   </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+  
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Project Leadership', 'Data Analysis', 'User Research', 'Instructional Design', 'Programming', 'Cognitive Task Analysis'],
+        datasets: [{
+          data: [10, 6, 5, 4, 6, 7],
+          borderWidth: 1,
+          backgroundColor: '#6AAA78'
+        }]
+      },
+      options: {
+        responsive: true,
+        legend: {
+            display: false
+        },
+        scales: {
+          x: {
+            ticks: {
+                font: {
+                    size: 20,
+                }
+            }
+          },
+          y: {
+            display: false,
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
