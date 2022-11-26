@@ -131,6 +131,14 @@ a {
 .image-row {
     display: flex;
     justify-content: space-evenly;
+    transition: transform 0.5s, opacity 0.5s;
+    transform: translateY(200px) scaleX(3);
+    opacity: 0;
+}
+
+.image-row.active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .screenshot {
@@ -155,9 +163,8 @@ a {
     height: 100px;
 }
 
-.course-project-details {
+.course-details-section {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .course-details-header {
@@ -174,7 +181,36 @@ a {
 
 .course-details {
     height: auto;
-    width: 200px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.course-details-section {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.course-details-section.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.arrow {
+    width: 150px;
+    margin-left: 20px;
+}
+
+#assessment {
+    margin-left: 150px;
+}
+
+#instruction {
+    margin-left: 300px;
+}
+
+#evaluation {
+    margin-left: 450px;
 }
 
 .metrics-graphs {

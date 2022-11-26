@@ -1,5 +1,15 @@
-#homepage-banner {
-    width: 100%;
+.homepage-banner {
+    background-image: url("../assets/leaf-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 56px;
+    color: white;
+    padding: 200px 50px 50px 50px;
+    height: auto;
+}
+
+.homepage-banner-text.active {
+    animation: typeIn 2s steps(28) forwards;
 }
 
 #content-header {
