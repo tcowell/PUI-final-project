@@ -22,7 +22,7 @@
 
 .project-overview {
     text-align: center;
-    padding: 30px;
+    padding: 30px 150px 30px 150px;
 }
 
 .overview-header {
@@ -46,6 +46,11 @@
     margin-bottom: 20px;
 }
 
+.details-section-2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .details-section-left {
     height: auto;
     margin: 0px 20px 20px 20px;
@@ -53,17 +58,41 @@
     font-size: 36px;
     align-items: center;
     padding: 5px;
-    text-align: center;
+}
+
+.details-section-left-2 {
+    margin: 0px 20px 20px 0px;
+    font-size: 18px;
+    width: 2000px;
+    align-self: center;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .image-container {
     display: flex;
+    transition: transform 0.5s, opacity 0.5s;
+    transform: translateX(-200px);
+    opacity: 0;
+}
+
+.image-container.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.image-with-caption {
+    font-size: 24px;
+    text-align: center;
 }
 
 .capstone-image {
     width: 400px;
     padding: 20px;
+    margin-right: 10px;
     border-radius: 10%;
+    border: black;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .details-section-right {
@@ -71,12 +100,23 @@
     font-size: 18px;
     width: 2000px;
     align-self: center;
+    padding-top: 20px;
+}
+
+.details-section-right-2 {
+    height: auto;
+    margin: 0px 20px 20px 0px;
+    justify-content: center;
+    font-size: 36px;
+    align-items: center;
+    padding: 5px;
+    text-align: right;
 }
 
 .project-link {
     font-size: 28px;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
     color: white;
     background-image: url("../assets/leaf-background.webp");
@@ -97,6 +137,7 @@ a {
     width: 300px;
     margin: 30px;
     border-radius: 10%;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .chiplay-banner {
@@ -106,7 +147,7 @@ a {
 }
 
 .chiplay-right {
-    font-size: 24px;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -136,3 +177,7 @@ a {
     width: 200px;
 }
 
+.metrics-graphs {
+    display: flex;
+    justify-content: space-evenly;
+}
