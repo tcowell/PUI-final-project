@@ -22,4 +22,4 @@ function addObserver(el) {
 scrollTrigger('.image-container', {rootMargin: '-200px'});
 scrollTrigger('.homepage-banner-text', {rootMargin: '-200px'});
 scrollTrigger('.image-row', {rootMargin: '-200px'});
-scrollTrigger('.course-details-section', {rootMargin: '-200px'})
+scrollTrigger('.course-details-section', {rootMargin: '-200px'});

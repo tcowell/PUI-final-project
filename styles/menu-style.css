@@ -13,6 +13,10 @@
     margin: 30px;
 }
 
+.menu-item:hover {
+    text-decoration: underline black 3px;
+}
+
 .menu-link {
     color: black;
     font-size: 24px;
@@ -24,6 +28,10 @@ a.menu-link:link {
 
 #home-button {
     margin: 30px;
+}
+
+#home-button:hover {
+    text-decoration: underline black 3px;
 }
 
 #current-page {
