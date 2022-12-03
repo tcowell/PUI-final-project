@@ -22,7 +22,7 @@
 }
 
 .work-experience-content {
-    margin: 20px;
+    margin: 20px 100px 20px 100px;
     font-size: 20px;
 }
 
@@ -40,25 +40,50 @@
 }
 
 .publication {
-    margin: 20px;
+    margin: 20px 100px 20px 100px;
 }
 
 .honors-content {
     display: flex;
-    font-size: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
-.honors-content-left, .honors-content-right {
+.honors-content-right {
+    width: 400px;
+}
+
+.honors-content-left {
+    width: 400px;
+    padding-top: 20px;
+}
+
+.honor-name {
     text-align: center;
+    font-size: 30px;
     margin: 20px 0px 20px 0px;
 }
 
+.honor-description {
+    text-align: center;
+}
+
 .courses-content {
+    display: flex;
+    justify-content: space-evenly;
     font-size: 20px;
+}
+
+.school {
+    font-size: 30px;
+    text-align: center;
+}
+
+.courses-section {
     margin: 20px;
 }
 
 #myChart {
     margin: 50px;
+    width: 100%;
 }
