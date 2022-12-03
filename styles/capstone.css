@@ -216,4 +216,5 @@ a {
 .metrics-graphs {
     display: flex;
     justify-content: space-evenly;
+    font-size: 30px;
 }
