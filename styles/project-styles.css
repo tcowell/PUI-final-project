@@ -1,5 +1,7 @@
 body {
     background-image: url("../assets/leaf-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .thumbnail-row {
